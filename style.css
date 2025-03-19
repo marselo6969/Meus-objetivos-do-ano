@@ -1,0 +1,26 @@
+:root{
+--cor-de-fundo:#000000;
+--vermelho:#be0b0b;
+--branco:#ffffff;
+--botao-ativo:#ffe605;
+--botao-inativo:#9003a3;
+--texto-fundo:#ffffff;}
+
+body{
+    background-color: var(--cor-de-fundo);
+     color: var(--branco);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.titulo-principal{
+    text-align:center;
+    width: 100%;
+    font-size: 32px;
+}
