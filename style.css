@@ -24,3 +24,9 @@ body{
     width: 100%;
     font-size: 32px;
 }
+.botão{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    
+}
